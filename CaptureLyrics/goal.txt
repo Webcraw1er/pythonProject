@@ -1,0 +1,23 @@
+goal:
+
+https://www.youtube.com/watch?v=7KPyunRIjr0
+
+use the above video.
+read it through python or import it.
+
+first, specify the work type: 
+"delete" for deleting the whole directory,
+-> delete all files under the folder of which the name ends with SS/LR
+		-> import the function from "delete.py"
+
+"capture" for doing the intended work
+-> input a song name, concatenate it with SS/LR and then make
+    a folder out of it, then save every Screen Captures in it.
+		-> import the function from "capture.py"
+whenever the screen changes and a new block of lyric appears,
+screenshot it, save it as screenshot[i] in the "NCSS" folder,
+				Night Changes-Screenshot
+and at the same time read it with pytesserat to extract words and 
+save those as lyrics[i] in the "NCLR" folder.
+		night changes- lyrics
+
